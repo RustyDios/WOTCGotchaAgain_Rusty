@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>c636c9a5-3848-4e0a-8ddb-605192c67bd8</Guid>
+    <Name>WOTCGotchaAgain</Name>
+    <Description>WOTCGotchaAgain clone of mod
+To fix the shield preview issue</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>WOTCGotchaAgain</AssemblyName>
+    <RootNamespace>WOTCGotchaAgain</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\ModConfigMenuAPI" />
+    <Folder Include="Src\ModConfigMenuAPI\Classes" />
+    <Folder Include="Src\WOTCGotchaAgain\" />
+    <Folder Include="Src\WOTCGotchaAgain\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComWOTCGotchaAgainDefaultSettings.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_GA.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_GA_Lewe1.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_GA_Lewe2.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_GA_Lewe3.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_GA_Lewe4.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_GA_Lewe5.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_GA_vhs0.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_GA_vhs1.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_GA_vhs2.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\WOTCGotchaAgain_ModShaderCache.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Button.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Checkbox.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Dropdown.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Instance.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Label.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Setting.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_SettingsGroup.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_SettingsPage.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Slider.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Spinner.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\MCM_API_CfgHelpers.uci">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\MCM_API_Includes.uci">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\CacheUtility_GA.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\DoorHackingIndicator_GA.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\IconPack_GA.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\IconPack_GA_lewe1.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\IconPack_GA_lewe2.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\IconPack_GA_lewe3.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\IconPack_GA_lewe4.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\IconPack_GA_lewe5.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\IconPack_GA_vhs0.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\IconPack_GA_vhs1.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\IconPack_GA_vhs2.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\LOSUtility_GA.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\ObjectiveIndicatorUtility_GA.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\PathIndicatorLocation_GA.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\PathIndicatorUtility_GA.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\PathIndicator_GA.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\UISpecialMissionHUD_Arrows_GA.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\UIUnitActivationIndicator_GA.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\UIUnitFlagManager_GA.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\UIUnitLOSIndicator_GA.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\UnitIndicatorUtility_GA.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\WOTCGotchaAgainDefaultSettings.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\WOTCGotchaAgainSettings.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\X2DownloadableContentInfo_WOTCGotchaAgain.uc" />
+    <Content Include="Src\WOTCGotchaAgain\Classes\X2GrapplePuck_GA.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\X2MeleePathingPawn_GA.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\XComGameState_IndicatorArrow_GA.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCGotchaAgain\Classes\XComPathingPawn_GA.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
